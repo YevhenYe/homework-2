@@ -116,7 +116,9 @@ color:#ffffff;
 .btn:focus{background-color:var(--accent-color);}
 .btn{cursor: pointer;}
 /* PORTFOLIO */
-.btn-portfolio{background-color:color:var(--primary-bg-color);
+.btn-portfolio{
+  background-color: var(--primary-bg-color);
+
   color: var(--title-text-color);
 }
 
