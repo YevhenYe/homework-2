@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="nav">
+    <header>
       <a href="./index.html" class="logo" lang="en"
         >Web<span class="logo-s">Studio</span></a
       >
-      <nav>
+      <nav class="nav">
         <ul class="list site-nav">
-          <li><a href="./index.html" class="link">Студія</a></li>
+          <li><a href="./index.html" class="link studio">Студія</a></li>
           <li>
-            <a href="./portfolio.html" class="link portfolio">Портфоліо</a>
+            <a href="./portfolio.html" class="link">Портфоліо</a>
           </li>
           <li><a href="" class="link">Контакти</a></li>
         </ul>
@@ -54,8 +60,8 @@
               src="./image/portfolio/techno (1).jpg"
               alt="на экране ноутбука открыт сайт где изображаны три человека"
             />
-            <h2 class="title">Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="title-portfolio">Технокряк</h2>
+            <p class="text-portfolio">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -64,10 +70,9 @@
               src="./image/portfolio/design (1).jpg"
               alt="двое мужчин играют в баскетбол"
             />
-            <h2 class="title">Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <h2 class="title-portfolio">Постер New Orlean vs Golden Star</h2>
+            <p class="text-portfolio">Дизайн</p>
           </li>
-          btn
           <li>
             <img
               width="370px"
@@ -75,8 +80,8 @@
               src="./image/portfolio/seafood (1).jpg"
               alt="лейбл ресторана"
             />
-            <h2 class="title">Ресторан Seafood</h2>
-            <p>Додаток</p>
+            <h2 class="title-portfolio">Ресторан Seafood</h2>
+            <p class="text-portfolio">Додаток</p>
           </li>
           <li>
             <img
@@ -85,8 +90,8 @@
               src="./image/portfolio/headphones (1).jpg"
               alt="наушники"
             />
-            <h2 class="title">Проєкт Prime</h2>
-            <p>Маркетинг</p>
+            <h2 class="title-portfolio">Проєкт Prime</h2>
+            <p class="text-portfolio">Маркетинг</p>
           </li>
           <li>
             <img
@@ -95,8 +100,8 @@
               src="./image/portfolio/two box (1).jpg"
               alt="две коробки"
             />
-            <h2 class="title">Проєкт Boxes</h2>
-            <p>Додаток</p>
+            <h2 class="title-portfolio">Проєкт Boxes</h2>
+            <p class="text-portfolio">Додаток</p>
           </li>
           <li>
             <img
@@ -105,8 +110,8 @@
               src="./image/portfolio/monitor (1).jpg"
               alt="на экране монитора открыт сайт"
             />
-            <h2 class="title">Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="title-portfolio">Inspiration has no Borders</h2>
+            <p class="text-portfolio">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -115,8 +120,8 @@
               src="./image/portfolio/book (1).jpg"
               alt="открыта страница журнала"
             />
-            <h2 class="title">Видання Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 class="title-portfolio">Видання Limited Edition</h2>
+            <p class="text-portfolio">Дизайн</p>
           </li>
           <li>
             <img
@@ -125,8 +130,8 @@
               src="./image/portfolio/marketing (1).jpg"
               alt="лейбл tag"
             />
-            <h2 class="title">Проєкт LAB</h2>
-            <p>Маркетинг</p>
+            <h2 class="title-portfolio">Проєкт LAB</h2>
+            <p class="text-portfolio">Маркетинг</p>
           </li>
           <li>
             <img
@@ -135,8 +140,8 @@
               src="./image/portfolio/aplication (1).jpg"
               alt="на мониторе открыто приложение"
             />
-            <h2 class="title">Growing Business</h2>
-            <p>Додаток</p>
+            <h2 class="title-portfolio">Growing Business</h2>
+            <p class="text-portfolio">Додаток</p>
           </li>
         </ul>
       </section>
@@ -148,9 +153,11 @@
     >
     <address class="address">
       <ul class="list site-contacts">
-        <li>м. Київ, пр-т Лесі Українки</li>
-        <li><a href="" class="link contacts">info@devstudio.com</a></li>
-        <li><a href="" class="link contacts">+38 096 111 11 11</a></li>
+        <li class="town">м. Київ, пр-т Лесі Українки</li>
+        <li>
+          <a href="" class="link contacts-footer">info@devstudio.com</a>
+        </li>
+        <li><a href="" class="link contacts-footer">+38 096 111 11 11</a></li>
       </ul>
     </address>
   </footer>
